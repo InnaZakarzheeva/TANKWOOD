@@ -1,0 +1,192 @@
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    height: 90px;
+    border-bottom:4px solid #e7e7e7;
+    align-items: center;
+    justify-content: center;
+    }
+.menu{
+  display: flex;
+  width: 10%;
+  height: 100%;
+}
+.block_info{
+  display:flex;
+  width:90%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: bold;
+    color: red;
+    font: 62px 'Rockwell';
+    font-weight: 700;
+
+}
+.img-logo{
+  display: flex;
+  width: 110px;
+  height: 65px;
+ 
+}
+.logo-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_t{
+    font-style: normal;
+    color: black;
+    font: 16px;
+}
+
+.tel>a{
+    text-decoration: none;
+}
+.tel:hover {
+    text-decoration: underline;
+}
+/*
+.but_tel{
+    margin: 10px 0 0 0;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 26px;
+    border: none;
+    border-radius: 18px;
+    
+}
+
+.but_tel:hover {
+    text-decoration: underline;
+ }
+*/
+.but{
+  display: flex;
+  flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.number{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.number:hover{
+  text-decoration: underline;
+}
+.but_tel {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: red;
+    border: 1px solid red;
+    background: none;
+    font-weight: 300;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    height: 60px;
+    width: 200px;
+  }
+  .but_tel:before,
+  .but_tel:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .but_tel:before {
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+  }
+  .but_tel:after {
+    top: 0;
+    right: 0;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+  }
+  .but_tel:hover:before,
+  .but_tel:hover:after{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .but_tel:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+  .but_tel:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+  .but_tel:hover {background: rgba(255,255,255,.2);}
+
+  /* Menu */
+  
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+.bm-item:hover {
+ color: white;
+}
+.bm-burger-button {
+ position: fixed;
+ width: 36px;
+ height: 30px;
+ left: 36px;
+ top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+ background: red;
+}
+.bm-cross-button {
+ height: 24px;
+ width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+ background: #bdc3c7;
+}
+.bm-menu {
+ background: #373a47;
+ padding: 2.5em 1.5em 0;
+ font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+ fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+ color: #b8b7ad;
+}
+.bm-overlay {
+ background: rgba(0, 0, 0, 0.3);
+}
