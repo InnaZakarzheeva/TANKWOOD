@@ -1,7 +1,7 @@
 import React from "react";
 import "./head_line.css";
 import { slide as Menu } from 'react-burger-menu'
-
+import { Link, animateScrool as scroll} from 'react-scroll';
 
 
 export default class Head_line extends React.Component {
@@ -11,11 +11,9 @@ export default class Head_line extends React.Component {
         <div className="wrapper">
         <div className="menu">
            <Menu>
-            <a className="menu-item" href="#">Home</a>
-            <a className="menu-item" href="#">Block1</a>
-            <a className="menu-item" href="#">Block2</a>
-            <a className="menu-item" href="#">Block3</a>
-            <a className="menu-item" href="#">Footer</a>
+            <a className="menu-item" href="#main">Главная</a>
+            <a className="menu-item" href="#products">Каталог</a>
+            <a className="menu-item" href="#contacts" >Контакты</a>
           </Menu>
         </div>
         <div className="block_info">

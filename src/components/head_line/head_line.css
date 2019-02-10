@@ -145,8 +145,9 @@
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: /*#d1d1d1;*/ black;
   transition: color 0.2s;
+  font-size: 22px;
 }
 .bm-item:hover {
  color: white;
@@ -168,24 +169,25 @@
  width: 24px;
 }
 
+
 /* Color/shape of close button cross */
 .bm-cross {
- background: #bdc3c7;
+ background: /*#bdc3c7;*/ red;
 }
 .bm-menu {
- background: #373a47;
+ background: /* #373a47; */ #e7e7e7;
  padding: 2.5em 1.5em 0;
  font-size: 1.15em;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
- fill: #373a47;
+ fill: /*#373a47;*/ #e7e7e7;
 }
 
 /* Wrapper for item list */
 .bm-item-list {
- color: #b8b7ad;
+ color: /*#b8b7ad;*/ red;
 }
 .bm-overlay {
  background: rgba(0, 0, 0, 0.3);
