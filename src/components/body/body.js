@@ -75,15 +75,6 @@ export default class Header extends React.Component {
 
 <div className="line">
                  <div className="products-wrapper">
-                 
-                 <div className="line">
-                 <br></br>
-                    <div className="body_wrapper">
-                        <button className="change_products" type="submit">Каталог</button>
-                        <button className="change_products" type="submit">Контакты</button>
-                    </div>
-                    <br></br>
-                    </div>
 
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD B12</h1>
                     <div className="products">

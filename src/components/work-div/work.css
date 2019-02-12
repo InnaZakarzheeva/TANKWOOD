@@ -4,10 +4,31 @@
     flex-direction: column;
     border-top: 6px solid #e7e7e7;
 }
-.fon{
+/*
+.border{
     display: flex;
-    background-color: #e7e7e7;
+    width: 100%;
+    height: 100px;
+    background-image: url(../../static/image/3.jpg);
+}
+*/
+.about-company{
+    display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+}
+.about-company-text{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    
 }
 .text_work{
     display: flex;
@@ -22,24 +43,72 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 300px;
-    justify-content: space-evenly;
+    height: 350px;
+    justify-content: center;
 
+}
+.hr{
+    display: flex;
+    width: 40px;
+    height: 40%;
+    margin: 0 10px 0 10px;
+    justify-content: center;
+    border:none;
+    border-bottom:4px dotted #f00;
+    color:#fff;
+    background-color:#fff;
 }
 .elements{
     display: flex;
     width: 15%;
-    height: 250px;
-    border: none;
-    background-color: white;
+    height: 300px;
     flex-direction: column;
+    justify-content: space-between;
 }
-.number_work{
+.elements:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.elements-work{
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     justify-content: space-around;
+}
+.image-work{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+}
+.image-work>img{
+    padding-top: 30px;
+    width: 60px;
+    height: 60px;
+}
+/*
+.number-work{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+    margin-top: -30px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 170px;
     color: #e7e7e7;
 }
+*/
+.text-work{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+

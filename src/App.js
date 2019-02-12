@@ -5,7 +5,8 @@ import Head_line from './components/head_line/head_line';
 import Body from './components/body/body';
 import Footer from './components/footer/footer';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import WorkBlock from './components/work-div/work';
+import Header from './components/work-div/header';
+import ScrollUpButton from "react-scroll-up-button";
 
 
 export default class App extends React.Component {
@@ -23,11 +24,12 @@ export default class App extends React.Component {
     ];
     return (
       <div className="App">
+      <ScrollUpButton/>
       <ScrollableAnchor id="main">
         <Head_line/>
       </ScrollableAnchor>
       <SmartSlider slides={slidesArray} autoSlide={true} />
-
+      <Header/>
       <ScrollableAnchor id="products">
       <Body/>
       </ScrollableAnchor>

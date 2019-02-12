@@ -3,7 +3,7 @@
     display: flex;
     width: 100%;
     background-color: #ffffff;
-    height: 90px;
+    height: 100px;
     border-bottom:4px solid #e7e7e7;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,7 @@
     color: red;
     font: 62px 'Rockwell';
     font-weight: 700;
+    
 
 }
 .img-logo{
@@ -71,6 +72,26 @@
     text-decoration: underline;
  }
 */
+
+/* Social */
+
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.social-border{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social-border>img{
+  width: 30px;
+  height: 30px;
+}
 .but{
   display: flex;
   flex-direction: row;

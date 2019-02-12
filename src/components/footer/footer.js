@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
 
         <div className="info-wrapper">
         <div className="tankwood">
-          "Tankwood"
+        TANKW<img src={require("../../static/image/logo.png")} className="img-logo"></img> D
           </div>
 
           <div className="post">
