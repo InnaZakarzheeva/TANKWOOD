@@ -23,10 +23,12 @@ export default class Head_line extends React.Component {
                
             </div>
        
-       <div className="social">
-       {/*
-       <div className="social-border"><img src={require("../../static/image/social/telegram.png")}></img></div>
-       */}
+       <div className="social"> 
+               <img src={require("../../static/image/social/telegram.png")}></img>
+               <img src={require("../../static/image/social/viber.png")}></img>
+               <img src={require("../../static/image/social/youtube.png")}></img>
+               <img src={require("../../static/image/social/gmail.png")}></img>
+               <img src={require("../../static/image/social/instagramm.png")}></img>
        </div>
             <div className="but">   
                   <div><a href="tel:+380672570187" className="number">+38 (067) 257-01-87</a></div>                                                                            

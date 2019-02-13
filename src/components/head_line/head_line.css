@@ -4,9 +4,14 @@
     width: 100%;
     background-color: #ffffff;
     height: 100px;
-    border-bottom:4px solid #e7e7e7;
+    border-bottom:6px solid #e7e7e7;
     align-items: center;
     justify-content: center;
+    background-image: url(../../static/image/3.jpg);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    
     }
 .menu{
   display: flex;
@@ -77,20 +82,17 @@
 
 .social{
   display: flex;
+  width: 30%;
   flex-direction: row;
   align-items: center;
-
-}
-.social-border{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
 
-.social-border>img{
-  width: 30px;
-  height: 30px;
+
+.social>img{
+  width: 40px;
+  height: 40px;
 }
 .but{
   display: flex;
@@ -101,31 +103,29 @@
 
 }
 .number{
-  font-size: 18px;
+  font-size: 26px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .number:hover{
   text-decoration: underline;
 }
 .but_tel {
-    text-decoration: none;
-    outline: none;
-    display: inline-block;
-    padding: 20px 30px;
-    margin: 10px 20px;
-    position: relative;
-    color: red;
-    border: 1px solid red;
-    background: none;
-    font-weight: 300;
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    height: 60px;
-    width: 200px;
+  width: 220px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  position: relative;
+  color: red;
+  border: 1px solid red;
+  background:  none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
   }
   .but_tel:before,
   .but_tel:after {
@@ -213,3 +213,54 @@
 .bm-overlay {
  background: rgba(0, 0, 0, 0.3);
 }
+
+/* Button */
+.change_products {
+  width: 250px;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: black;
+    border: /*1px solid  rgba(255,255,255,.4); red;*/ none;
+    background:  rgba(255,255,255,.2);
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+  }
+  .change_products:before,
+  .change_products:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .change_products:before {
+    bottom: 0;
+    left: 0;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+  }
+  .change_products:after {
+    top: 0;
+    right: 0;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+  }
+  .change_products:hover:before,
+  .change_products:hover:after{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+  }
+  .change_products:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+  .change_products:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+  .change_products:hover {background: none;}

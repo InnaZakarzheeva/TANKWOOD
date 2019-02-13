@@ -5,16 +5,15 @@ export default class Header extends React.Component {
     render() {
         return(
                 <div className="wrapper-work">
-                     <div className="line">
                     
                     <div className="body_wrapper">
                     <a href="#products"><button className="change_products" type="submit">Каталог</button></a>
                     <a href="#contacts"><button className="change_products" type="submit">Контакты</button></a>
                     </div>
-                    </div>
-                    <div className="border"></div>
-                    <br></br>
+                    
+                    
                     <div className="about-company">
+                    <br></br>
                         <div className="text_work">
                         ИЗМЕЛЬЧИТЕЛИ ВЕТОК ТМ TANKWOOD
                         </div> 
@@ -24,7 +23,8 @@ export default class Header extends React.Component {
                         </p>
                         
                     </div>
-                    
+                    <div className="border"></div>
+                    <br></br>
                     <div className="text_work">КАК МЫ РАБОТАЕМ</div>
                     <br></br>
                     <div className="how-work">
@@ -87,8 +87,10 @@ export default class Header extends React.Component {
                         </div>
                     
                         <br></br>
+                        
                     </div>
                     
+                    <div className="border"></div>
                 </div>
         );
     }

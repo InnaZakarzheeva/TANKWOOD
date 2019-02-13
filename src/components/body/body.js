@@ -69,10 +69,6 @@ export default class Header extends React.Component {
           };
         return(
             <div>
-            <div className="line"></div>
- 
-
-
 <div className="line">
                  <div className="products-wrapper">
 
@@ -85,7 +81,7 @@ export default class Header extends React.Component {
                             <div>14 950 ГРН</div>
                             <br></br>
                             <p className="about">Это отличный помощник по переработки веток в дешёвое топливо. Продукция полученная с помощью данного процесса может быть использована как топливо для пиролизных и твердотопливных котлов, каминов, печей, а также при производстве древесного угля. Блок абсолютно универсален и в зависимости от выбранной модификации может агрегатироваться как с двигателями внутреннего згорания, электродвигателями так и с тракторами.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                            
                         </div>
                      </div>
@@ -161,7 +157,7 @@ export default class Header extends React.Component {
                             <div>23 500 ГРН</div>
                             <br></br>
                             <p className="about">Надежный измельчитель веток который агрегатируеться непосредственно с тракторами. Tankwood 120 T с производительностью 60 м3/смену станет отличным партнером Вашей технике. Заготавливать топливо ещё не было так легко. Привод от карданного вала, на выбор: 6 и 8 шлицов.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
@@ -238,7 +234,7 @@ export default class Header extends React.Component {
                             <div>26 500 ГРН</div>
                             <br></br>
                             <p className="about">Tankwood 120 Tpro предназначен заготавливать топливо с веток и дров. Главной особенностью является большой диаметр перерабатываемой ветки и наличие конусного дровокола, с помощью которого можно быстро колоть дрова.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
@@ -313,7 +309,7 @@ export default class Header extends React.Component {
                             <div>39 500 ГРН</div>
                             <br></br>
                             <p className="about">Служит отличным помощником в заготовке дешёвого топлива. Может устанавливаться на автомобильный прицеп. И быть мобильным. Также его можно устанавливать стационарно. Аппарат полностью автономный. Одной заправки топлива А-92 будет вполне достаточно для рабочей смены.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
@@ -381,7 +377,7 @@ export default class Header extends React.Component {
                             <div>43 900 ГРН</div>
                             <br></br>
                             <p className="about">Служит отличным помощником в заготовке дешёвого топлива. Имеет колёсную базу. Два фаркопа что в свою очередь позволяет легко транспортировать аппарат и прицеп. Одной заправки топлива А-92 будет вполне достаточно для рабочей смены.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
@@ -451,7 +447,7 @@ export default class Header extends React.Component {
                             <div>49 950 ГРН</div>
                             <br></br>
                             <p className="about">Tankwood 12B18Kpro улучшеный измельчитель веток. Имеет в своём арсенале мощный двигатель, электростартер, большие колёса усиленную раму, широкую колесную базу и маховик.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
@@ -521,7 +517,7 @@ export default class Header extends React.Component {
                             <div>58000 ГРН</div>
                             <br></br>
                             <p className="about">Измельчитель веток агрегатируется с тракторами. Имеет в своей комплектации Транспортер. Который в свою очередь повышает производительность труда в разы. И служит отличным помощником в загрузке полученной продукции. Тем самым максимально экономит время работы.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
@@ -578,7 +574,7 @@ export default class Header extends React.Component {
                             <div>83 500 ГРН</div>
                             <br></br>
                             <p className="about">Tankwood 12B18KT улучшеный измельчитель веток. Имеет транспортёр. Служит для быстрой заготовки дров в больших количествах. С малыми трудовыми затратами.</p>
-                            <form action="tel:+380672570187"> <button className="change_products" type="submit">Заказать</button></form>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
                         </div>
                      </div>
             </div>
