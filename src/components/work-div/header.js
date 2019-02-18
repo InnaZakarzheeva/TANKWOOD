@@ -48,41 +48,36 @@ export default class Header extends React.Component {
                         <div className="elements">
                         <div className="elements-work">
                                 <div className="image-work"><img src={require("../../static/image/work-div/choose.png")}></img></div>
-                              <div>
-                               <div className="text-work">ВЫБИРАЕМ МОДЕЛЬ</div>
-                               <div className="text-work">ИЗМЕЛЬЧИТЕЛЯ ВЕТОК</div>
-                               </div>
+                              
+                               <div className="text-work">ВЫБИРАЕМ МОДЕЛЬ ИЗМЕЛЬЧИТЕЛЯ ВЕТОК</div>
+                              
                            </div>
                         </div>
                         <div className="hr"></div>
                         <div className="elements">
                         <div className="elements-work">
                                 <div className="image-work"><img src={require("../../static/image/work-div/details.png")}></img></div>
-                              <div>
-                               <div className="text-work">УТОЧНЯЕМ ДЕТАЛИ</div>
-                               <div className="text-work">ЗАКАЗА</div>
-                               </div>
+                              
+                               <div className="text-work">УТОЧНЯЕМ ДЕТАЛИ ЗАКАЗА</div>
+                               
                            </div>
                         </div>
                         <div className="hr"></div>
                         <div className="elements"> 
                         <div className="elements-work">
                             <div className="image-work"><img src={require("../../static/image/work-div/box.png")}></img></div>
-                               <div>
-                                <div className="text-work">ДОСТАВЛЯЕМ ТОВАР</div>
-                                <div className="text-work">ПЕРЕВОЗЧИКОМ</div>
-                               </div>
+                              
+                                <div className="text-work">ДОСТАВЛЯЕМ ТОВАР ПЕРЕВОЗЧИКОМ</div>
+                            
                            </div>
                         </div>
                         <div className="hr"></div>
                         <div className="elements"> 
                         <div className="elements-work">
                                 <div className="image-work"><img src={require("../../static/image/work-div/diamond.png")}></img></div>
-                               <div>
-                               <div className="text-work">ВЫ-ОБЛАДАТЕЛЬ</div>
-                               <div className="text-work">ИЗМЕЛЬЧИТЕЛЯ</div>
-                               <div className="text-work">ВЕТОК TANKWOOD!</div>
-                               </div>
+                              
+                               <div className="text-work">ВЫ-ОБЛАДАТЕЛЬ ИЗМЕЛЬЧИТЕЛЯ ВЕТОК TANKWOOD!</div>
+                              
                            </div>
                         </div>
                     

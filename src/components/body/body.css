@@ -80,6 +80,25 @@
   width: 100%;
   align-items: center;
 }
+.carousel-wrapper{
+  display: flex;
+  width: 45%;
+  justify-content: center;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li.slide.selected{
+  background-color: white;
+}
+/*
+.thumbs-wrapper{
+  visibility: hidden;
+}
+*/
 .products-wrapper>h1{
   font-family: 'Open Sans Condensed', sans-serif;
   font-style: normal;
@@ -167,5 +186,243 @@
 
 .youtube{
   display: flex;
-  justify-content: center;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+  .products-wrapper>h1{
+    font-size: 65px;
+  }
+  .name>div{
+    font-size: 40px;
+  }
+  .about{
+    font-size: 30px!important;
+  }
+  .order{
+    width: 300px;
+    border: 2px solid red;
+    font-size: 30px;
+  }
+  .about-contain-1{
+    width: 40%;
+    margin-block-end: 30px;
+  }
+  .header-about>h3{
+    font-size: 40px;
+  }
+  .row-about>div{
+    font-size:28px;
+  }
+  .youtube{
+    height: 700px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+  .products-wrapper>h1{
+    font-size: 52px;
+  }
+  .about{
+    font-size: 23px !important;
+    text-align: justify;
+  }
+  .about-contain-1{
+    width: 40%;
+    margin-block-end: 30px;
+  }
+  .row-about>div{
+    font-size: 24px;
+  }
+  .header-about>h3{
+    font-size: 34px;
+  }
+  .name>div{
+    font-size: 36px;
+  }
+  .thumbs-wrapper{
+    width: 120%;
+   }
+   .youtube{
+     height: 600px;
+   }
+  
+  
+}
+@media screen and (min-width: 900px) and (max-width: 1024px){
+  .name>div{
+    font-size: 32px;
+  }
+  .about{
+    font-size: 20px !important;
+    text-align: justify;
+}
+.about-contain-1{
+  width: 45%;
+  margin-block-end: 30px;
+}
+.products{
+  flex-direction: row;
+}
+.name{
+  text-align: center;
+  width: 45%;
+}
+.thumbs-wrapper{
+  width: 95%;
+ }
+.youtube{
+  width: 90%;
+  height: 450px;
+}
+  
+}
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .products-wrapper>h1{
+    font-size: 44px;
+  }
+  .about{
+      font-size: 16px !important;
+      text-align: justify;
+  }
+  .about-contain-1{
+    width: 45%;
+    margin-block-end: 30px;
+  }
+  .products{
+    flex-direction: row
+  }
+  .name{
+    text-align: center;
+    width: 45%;
+  }
+  .name>div{
+    font-size: 26px;
+  }
+  .thumbs-wrapper{
+   width: 110%;
+  }
+  .youtube{
+    width: 90%;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px){
+  .products-wrapper>h1{
+    font-size: 26px;
+    text-align: center;
+  }
+  .products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel-wrapper{
+    width: 80%;
+  }
+  .name{
+    width: 80%;
+    align-items: center;
+  }
+  .name>div{
+    font-size: 32px;
+  }
+  .about-contain-1{
+    width: 45%;
+    margin-block-end: 30px;
+  }
+  .header-about>h3{
+    font-size: 22px;
+  }
+  .row-about>div{
+    font-size: 14px;
+  }
+  .youtube{
+    height: 250px;
+  }
+  .thumbs-wrapper{
+    width: 110%;
+   }
+   .body_wrapper{
+     height: 70px;
+   }
+}
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .products-wrapper>h1{
+    font-size: 26px;
+    text-align: center;
+  }
+  .products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel-wrapper{
+    width: 80%;
+  }
+  .name{
+    width: 80%;
+    align-items: center;
+  }
+  .name>div{
+    font-size: 32px;
+  }
+  .about-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-contain-1{
+    width: 75%;
+    margin-block-end: 30px;
+  }
+  .header-about>h3{
+    font-size: 26px;
+    text-align: center;
+  }
+  .row-about>div{
+    font-size: 15px;
+  }
+  .youtube{
+    height: 250px;
+  }
+  .thumbs-wrapper{
+    width: 110%;
+   }
+   .body_wrapper{
+     height: 70px;
+   }
+   
+}
+@media screen and (min-width: 375px) and (max-width: 425px){
+  .header-about>h3{
+    font-size: 20px!important;
+    text-align: center;
+  }
+  .row-about>div{
+    font-size: 14px!important;
+  }
+  .thumbs-wrapper{
+    width: 100%;
+   }
+   .youtube{
+     height: 200px;
+   }
+}
+@media screen and (min-width: 320px) and (max-width: 375px){
+  .header-about>h3{
+    font-size: 18px!important;
+    text-align: center;
+  }
+  .row-about>div{
+    font-size: 12px!important;
+  }
+  .thumbs-wrapper{
+    width: 118%;
+   }
+   .youtube{
+     height: 200px;
+   }
 }

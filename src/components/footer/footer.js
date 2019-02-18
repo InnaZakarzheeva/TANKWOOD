@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
 
         <div className="info-wrapper">
           <div className="tankwood">
-          TANKW<img src={require("../../static/image/logo.png")} className="img-logo"></img> D
+          TANKW<img src={require("../../static/image/logo.png")} className="img-logo-footer"></img> D
             </div>
           <div className="social_footer"> 
                <img src={require("../../static/image/social/telegram.png")}></img>
@@ -27,26 +27,26 @@ export default class Footer extends React.Component {
 
           <div className="contacts">
 
-          <div className="button">
-          <form action="tel:+380672570187" >
-              <button className="contacts_button" type="submit">
-              +38 (067) 257-01-87
-              <img src={require("../../static/image/phone.png")} className="img"></img>
-              </button>
-              
-          </form>
-          </div>
+              <div className="button">
+              <form action="tel:+380672570187" >
+                  <button className="contacts_button" type="submit">
+                  +38 (067) 257-01-87
+                  <img src={require("../../static/image/phone.png")} className="img"></img>
+                  </button>
+                  
+              </form>
+              </div>
         
-          <div className="button">
-          <form action="mailto:andkoff.ua@gmail.com" >
-              <button className="contacts_button" type="submit">
-              andkoff.ua@gmail.com
-              <img src={require("../../static/image/gmail.png")} className="img"></img>
-              </button>
+              <div className="button">
+              <form action="mailto:andkoff.ua@gmail.com" >
+                  <button className="contacts_button" type="submit">
+                  andkoff.ua@gmail.com
+                  <img src={require("../../static/image/gmail.png")} className="img"></img>
+                  </button>
+                  
+              </form>
               
-          </form>
-          
-          </div>
+              </div>
           </div>
 
           <div className="post">

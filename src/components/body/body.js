@@ -1,63 +1,8 @@
 import React from "react";
 import "./body.css";
-import Gallery from 'react-amazon-gallery' 
 import YouTube from 'react-youtube';
-
-let images = [
-    require("../../static/image/120TT/6.png"),
-    require("../../static/image/120TT/5.png"),
-    require("../../static/image/120TT/4.png"),
-    require("../../static/image/120TT/3.png"),
-    require("../../static/image/120TT/6.png"),
-  ];
-  let images2 = [
-    require("../../static/image/B12/1.jpg"),
-    require("../../static/image/B12/2.jpg"),
-    require("../../static/image/B12/3.png"),
-    require("../../static/image/B12/4.jpg"),
-  ];
-  let images3 = [
-    require("../../static/image/120T/1.png"),
-    require("../../static/image/120T/2.png"),
-    require("../../static/image/120T/3.png"),
-    require("../../static/image/120T/4.png"),
-  ];
-  let images4 = [
-    require("../../static/image/120TPRO/1.png"),
-    require("../../static/image/120TPRO/2.png"),
-    require("../../static/image/120TPRO/3.png"),
-    require("../../static/image/120TPRO/4.png"),
-    require("../../static/image/120TPRO/5.png"),
-    require("../../static/image/120TPRO/6.png"),
-  ];
-  let images5 = [
-    require("../../static/image/12B18KPRO/1.png"),
-    require("../../static/image/12B18KPRO/2.png"),
-    require("../../static/image/12B18KPRO/3.png"),
-    require("../../static/image/12B18KPRO/4.png"),
-    require("../../static/image/12B18KPRO/5.png"),
-  ];
-  let images6 = [
-    require("../../static/image/12B18KT/1.png"),
-    require("../../static/image/12B18KT/2.png"),
-    require("../../static/image/12B18KT/3.png"),
-    require("../../static/image/12B18KT/4.png"),
-  ];
-  let images7 = [
-    require("../../static/image/12B16K/1.jpg"),
-    require("../../static/image/12B16K/2.jpg"),
-    require("../../static/image/12B16K/3.jpg"),
-    require("../../static/image/12B16K/4.jpg"),
-    require("../../static/image/12B16K/5.jpg"),
-  ];
-  let images8 = [
-    require("../../static/image/12B16/1.jpg"),
-    require("../../static/image/12B16/2.jpg"),
-    require("../../static/image/12B16/3.jpg"),
-    require("../../static/image/12B16/4.jpg"),
-
-  ];
-
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 export default class Header extends React.Component {
@@ -74,8 +19,15 @@ export default class Header extends React.Component {
 
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD B12</h1>
                     <div className="products">
-                        <Gallery images={images2} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                        <Carousel className="carousel">
+                            <div><img src={require("../../static/image/B12/1.jpg") }/></div>
+                            <div><img src={ require("../../static/image/B12/2.jpg")} /></div>
+                            <div><img src={require("../../static/image/B12/3.png")} /></div>
+                            <div><img src={require("../../static/image/B12/4.jpg")} /></div>
+                        </Carousel>
+                        </div>
+                   
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>14 950 ГРН</div>
@@ -135,12 +87,10 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="9rDCr6_TSMk" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+
+         <YouTube videoId="9rDCr6_TSMk" opts={opts} onReady={this._onReady} className="youtube"/>
+
 <br></br>
 </div>
 {/* Tankwood 120T */}
@@ -150,8 +100,15 @@ export default class Header extends React.Component {
                  <div className="products-wrapper">
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 120 T</h1>
                     <div className="products">
-                        <Gallery images={images3} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                        <Carousel className="carousel">
+                            <div><img src={require("../../static/image/120T/1.png") }/></div>
+                            <div><img src={ require("../../static/image/120T/2.png")} /></div>
+                            <div><img src={require("../../static/image/120T/3.png")} /></div>
+                            <div><img src={require("../../static/image//120T/4.png")} /></div>
+                        </Carousel>
+                        </div>
+                   
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>23 500 ГРН</div>
@@ -211,12 +168,10 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="-kLilv-4eL8" opts={opts} onReady={this._onReady}/>
-</div> 
+                
+
+         <YouTube videoId="iYDRoTLO-z0" opts={opts} onReady={this._onReady} className="youtube"/>
+ 
 <br></br>
 </div>
 
@@ -227,8 +182,17 @@ export default class Header extends React.Component {
                  <div className="products-wrapper">
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 120 TPRO</h1>
                     <div className="products">
-                        <Gallery images={images4} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                        <Carousel className="carousel">
+                            <div><img src={require("../../static/image/120TPRO/1.png") }/></div>
+                            <div><img src={ require("../../static/image/120TPRO/2.png")} /></div>
+                            <div><img src={require("../../static/image/120TPRO/3.png")} /></div>
+                            <div><img src={require("../../static/image/120TPRO/4.png")} /></div>
+                            <div><img src={require("../../static/image/120TPRO/5.png")} /></div>
+                            <div><img src={require("../../static/image/120TPRO/6.png")} /></div>
+                        </Carousel>
+                        </div>
+                   
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>26 500 ГРН</div>
@@ -288,12 +252,8 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="iYDRoTLO-z0" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+         <YouTube videoId="iYDRoTLO-z0" opts={opts} onReady={this._onReady} className="youtube"/>
 <br></br>
 </div>
 
@@ -302,8 +262,15 @@ export default class Header extends React.Component {
                  <div className="products-wrapper">
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 12B16</h1>
                     <div className="products">
-                        <Gallery images={images8} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                         <Carousel className="carousel">
+                            <div><img src={require("../../static/image/12B16/1.jpg") }/></div>
+                            <div><img src={ require("../../static/image/12B16/2.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B16/3.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B16/4.jpg")} /></div>
+                        </Carousel>
+                        </div>
+                   
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>39 500 ГРН</div>
@@ -355,12 +322,10 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="5rk2xbW01bc" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+
+         <YouTube videoId="5rk2xbW01bc" opts={opts} onReady={this._onReady} className="youtube"/>
+
 <br></br>
 </div>
 
@@ -370,8 +335,16 @@ export default class Header extends React.Component {
                  <div className="products-wrapper">
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 12B16K</h1>
                     <div className="products">
-                        <Gallery images={images7} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                        <Carousel className="carousel">
+                            <div><img src={require("../../static/image/12B16K/1.jpg") }/></div>
+                            <div><img src={ require("../../static/image/12B16K/2.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B16K/3.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B16K/4.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B16K/5.jpg")} /></div>
+                        </Carousel>
+                        </div>
+                   
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>43 900 ГРН</div>
@@ -423,12 +396,10 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="q0abZYe-9Es" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+
+         <YouTube videoId="q0abZYe-9Es" opts={opts} onReady={this._onReady} className="youtube"/>
+
 <br></br>
 </div>
 
@@ -440,8 +411,16 @@ export default class Header extends React.Component {
                  <div className="products-wrapper">
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 12B18KPRO</h1>
                     <div className="products">
-                        <Gallery images={images5} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                         <Carousel className="carousel">
+                            <div><img src={require("../../static/image/12B18KPRO/1.png") }/></div>
+                            <div><img src={ require("../../static/image/12B18KPRO/2.png")} /></div>
+                            <div><img src={require("../../static/image/12B18KPRO/3.png")} /></div>
+                            <div><img src={require("../../static/image/12B18KPRO/4.png")} /></div>
+                            <div><img src={require("../../static/image/12B18KPRO/5.png")} /></div>
+                        </Carousel>
+                    </div>
+                  
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>49 950 ГРН</div>
@@ -494,12 +473,9 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="6t7smtVR4AI" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+         <YouTube videoId="6t7smtVR4AI" opts={opts} onReady={this._onReady} className="youtube"/>
+
 <br></br>
 </div>
 
@@ -510,8 +486,15 @@ export default class Header extends React.Component {
                  
                     <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 120 TT</h1>
                     <div className="products">
-                        <Gallery images={images} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                        <Carousel className="carousel">
+                            <div><img src={require("../../static/image/120TT/6.png") }/></div>
+                            <div><img src={ require("../../static/image/120TT/5.png")} /></div>
+                            <div><img src={require("../../static/image/120TT/4.png")} /></div>
+                            <div><img src={require("../../static/image/120TT/3.png")} /></div>
+                        </Carousel>
+                  </div>
+                
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>58000 ГРН</div>
@@ -552,12 +535,9 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="2kCDv7gUUCY" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+         <YouTube videoId="2kCDv7gUUCY" opts={opts} onReady={this._onReady} className="youtube"/>
+
 <br></br>
 </div>
 
@@ -567,8 +547,15 @@ export default class Header extends React.Component {
                  <div className="products-wrapper">
                  <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 12B18KT</h1>
                     <div className="products">
-                        <Gallery images={images6} wrapStyle="flex" width="700px" height="500px"/>
-                    
+                    <div className="carousel-wrapper">
+                         <Carousel className="carousel">
+                            <div><img src={require("../../static/image/12B18KT/1.png") }/></div>
+                            <div><img src={ require("../../static/image/12B18KT/2.png")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/3.png")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/4.png")} /></div>
+                        </Carousel>
+                        </div>
+                  
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
                             <div>83 500 ГРН</div>
@@ -616,12 +603,10 @@ export default class Header extends React.Component {
                     </div>
 
                 </div>
-                <br></br>
-        
-         <br></br> 
-<div className="youtube">
-         <YouTube videoId="oYZ-aJTtOBk" opts={opts} onReady={this._onReady}/>
-</div> 
+               
+
+         <YouTube videoId="oYZ-aJTtOBk" opts={opts} onReady={this._onReady} className="youtube"/>
+ 
 <br></br>
 </div>
 
