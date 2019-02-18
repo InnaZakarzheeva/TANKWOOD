@@ -24,7 +24,7 @@ export default class App extends React.Component {
     ];
     return (
       <div className="App">
-      <ScrollUpButton/>
+     <ScrollUpButton/>
       <ScrollableAnchor id="main">
         <Head_line/>
       </ScrollableAnchor>
