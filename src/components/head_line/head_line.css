@@ -60,23 +60,6 @@
 .tel:hover {
     text-decoration: underline;
 }
-/*
-.but_tel{
-    margin: 10px 0 0 0;
-    background-color: red;
-    color: white;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-size: 26px;
-    border: none;
-    border-radius: 18px;
-    
-}
-
-.but_tel:hover {
-    text-decoration: underline;
- }
-*/
 
 /* Social */
 
@@ -97,7 +80,6 @@
 .but{
   display: flex;
   flex-direction: row;
-  /*  justify-content: space-evenly; */
     align-items: center;
     
 
@@ -224,7 +206,7 @@
     margin: 10px 20px;
     position: relative;
     color: black;
-    border: /*1px solid  rgba(255,255,255,.4); red;*/ none;
+    border: none;
     background:  rgba(255,255,255,.2);
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
