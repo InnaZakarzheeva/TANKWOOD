@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-export default class Header extends React.Component {
+export default class Body extends React.Component {
     render(){
         const opts = {
             height: '500',
