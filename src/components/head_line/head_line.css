@@ -30,18 +30,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     font-style: bold;
     color: red;
     font: 62px 'Rockwell';
     font-weight: 700;
-    
-
 }
+
 .img-logo{
   display: flex;
   width: 115px;
   height: 67px;
- 
+  align-self: center;
+  justify-content: center;
+
 }
 .logo-content{
   display: flex;
@@ -59,7 +61,25 @@
 }
 .tel:hover {
     text-decoration: underline;
+
 }
+/*
+.but_tel{
+    margin: 10px 0 0 0;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 26px;
+    border: none;
+    border-radius: 18px;
+    
+}
+
+.but_tel:hover {
+    text-decoration: underline;
+ }
+*/
 
 /* Social */
 
@@ -71,18 +91,22 @@
   justify-content: space-evenly;
 }
 
-
-
-.social>img{
-  width: 40px;
-  height: 40px;
+.social>a>img{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
 }
+.social>a>img:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .but{
   display: flex;
   flex-direction: row;
     align-items: center;
     
-
 }
 .number{
   font-size: 26px;
@@ -91,6 +115,7 @@
 }
 .number:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 .but_tel {
   width: 220px;
@@ -108,6 +133,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 24px;
+  cursor: pointer;
   }
   .but_tel:before,
   .but_tel:after {
@@ -206,7 +232,7 @@
     margin: 10px 20px;
     position: relative;
     color: black;
-    border: none;
+    border: /*1px solid  rgba(255,255,255,.4); red;*/ none;
     background:  rgba(255,255,255,.2);
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
@@ -245,16 +271,19 @@
   }
   .change_products:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
   .change_products:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
-  .change_products:hover {background: none;}
+  .change_products:hover {background: none;
+  cursor: pointer;
+  }
 
 
    /*Laptop 1440 width*/
    @media screen and (min-width: 1380px) and (max-width: 1440px){
      .social{
        width: 23%;
+       margin-left: 25px;
      }
      .logo{
-       width: 35%;
+       width: 30%;
        font-size: 70px;
      }
      .img-logo{
@@ -262,7 +291,7 @@
       height: 70px;
      }
      .but{
-       width: 45%;
+       width: 40%;
       
      }
      .change_products{
@@ -285,25 +314,29 @@
      }
      .logo{
        font-size: 68px;
+       width: 30%;
      }
      .img-logo{
        width: 130px;
        height: 80px;
      }
    }
+  
 @media screen and (min-width: 1024px) and (max-width: 1380px){
   .number{
     visibility: hidden;
+    display: none;
   }
   .logo{
-    width: 120%;
+    width: 40%;
   }
   .social{
-    width: 70%;
+    width: 30%;
+    margin-left: 25px;
   }
   .but{
-    width: 70%;
-    margin-right: 5%;
+    width: 28%;
+    
   }
   .change_products{
     width: 350px;
@@ -312,31 +345,47 @@
 
 }
    /*   */
+   @media screen and (min-width: 870px) and (max-width: 1024px){
+    .logo{
+      font-size:54px;
+      width: 50%;
+      
+    }
+    .but{
+      width: 35%;
+    }
+    .img-logo{
+     width: 105px;
+     height: 60px;
+    }
+    .social, .number{
+      visibility: hidden;
+      display: none;
+    }
+   }
 
-   @media screen and (min-width: 768px) and (max-width: 1024px){
+   @media screen and (min-width: 768px) and (max-width: 870px){
      .logo{
        font-size:54px;
-       width: 20%;
+       width: 55%;
        
      }
      .but{
-       width: 90%;
+       width: 38%;
      }
      .img-logo{
       width: 105px;
       height: 60px;
      }
-     .social{
+     .social, .number{
        visibility: hidden;
-       width: 20%;
-     }
-     .number{
-       visibility: hidden;
+       display: none;
      }
      
      
    }
 
+  
    @media screen and (min-width: 320px) and (max-width: 768px){
      .logo{
        font-size: 40px;

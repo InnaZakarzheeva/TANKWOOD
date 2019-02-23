@@ -13,11 +13,11 @@ export default class Footer extends React.Component {
           TANKW<img src={require("../../static/image/logo.png")} className="img-logo-footer"></img> D
             </div>
           <div className="social_footer"> 
-               <img src={require("../../static/image/social/telegram.png")}></img>
-               <img src={require("../../static/image/social/viber.png")}></img>
-               <img src={require("../../static/image/social/youtube.png")}></img>
-               <img src={require("../../static/image/social/gmail.png")}></img>
-               <img src={require("../../static/image/social/instagramm.png")}></img>
+          {/*<a title="Telegram" href="tg://resolve?domain=380672570187"><img src={require("../../static/image/social/telegram.png")} /> </a>*/}
+              <a title="Viber" href="viber://add?number=380672570187"><img src={require("../../static/image/social/viber.png")}></img></a>
+              <a title="YouTube" href="https://www.youtube.com/channel/UCr2cIeO_8yhHx0c-yrH8tDw"><img src={require("../../static/image/social/youtube.png")}></img></a>
+              <a title="Gmail" href="mailto:andkoff.ua@gmail.com"><img src={require("../../static/image/social/gmail.png")}></img></a>
+              {/*<a title="Instagram" href="tel:+380672570187"><img src={require("../../static/image/social/instagramm.png")}></img></a>*/}
        </div>
         </div>
           

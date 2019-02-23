@@ -28,15 +28,6 @@ export default class Header extends React.Component {
                     <div className="text_work">КАК МЫ РАБОТАЕМ</div>
                     <br></br>
                     <div className="how-work">
-                    {/* Work - block 
-                        <div className="elements">
-                           <div>
-                                <div className="image-work"><img src={require("../../static/image/work-div/phone.png")}></img></div>
-                               <div className="number-work">01</div>
-                               <div className="text-work">ВЫ ЗВОНИТЕ НАМ</div>
-                           </div>
-                        </div>
-                       */}
                        <div className="elements">
                            <div className="elements-work">
                                 <div className="image-work"><img src={require("../../static/image/work-div/phone.png")}></img></div>

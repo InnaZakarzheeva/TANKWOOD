@@ -28,9 +28,16 @@
     justify-content: space-evenly;
   }
   
-  .social_footer>img{
+  .social_footer>a>img{
     width: 50px;
     height: 50px;
+    cursor: pointer;
+  }
+
+  .social_footer>a>img:hover{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   }
 .post{
     display: flex;
@@ -93,6 +100,7 @@
 }
 .contacts_button:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .img-logo-footer{
     display: flex;
@@ -123,14 +131,17 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
     .tankwood{
-        font-size: 75px;
+        font-size: 54px;
     }
     .img-logo-footer{
-        width: 140px;
-        height: 85px;
+        width: 100px;
+        height: 60px;
     }
     .info-wrapper{
-        width: 50%;
+        width: 30%;
+    }
+    .social_footer{
+        width: 90%;
     }
     .post{
         width: 70%;
@@ -138,12 +149,12 @@
   }
   @media screen and (min-width: 900px) and (max-width: 1024px){
       .contacts-wrapper{
-          font-size: 22px;
+          font-size: 26px;
       }
       .contacts_button{
-          width: 215px;
-          height: 50px;
-          font-size: 16px;
+          width: 260px;
+          height: 60px;
+          font-size: 20px;
       }
       .img{
           width: 30px;
@@ -151,7 +162,7 @@
       }
       .post{
           width: 70%;
-          font-size: 20px;
+          font-size: 26px;
       }
       
   }
@@ -167,8 +178,8 @@
         flex-direction: column;
     }
     .contacts_button{
-        font-size: 16px;
-        width: 230px;
+        font-size: 18px;
+        width: 250px;
         height: 50px;
     }
     .post{
@@ -201,17 +212,14 @@
   @media screen and (min-width: 425px) and (max-width: 700px){
       .footer-wrapper{
           flex-direction: column;
-          height: 230px;
+          height: 300px;
       }
       .info-wrapper{
           width: 100%;
       }
       .tankwood{
-          font-size: 54px;
-      }
-      .img-logo-footer{
-          width: 100px;
-          height: 60px;
+          visibility: hidden;
+          display: none;
       }
       .social_footer{
           width: 60%;
@@ -222,20 +230,24 @@
       }
       .contacts-wrapper{
           width: 100%;
-          font-size: 20px;
+          font-size: 26px;
+      }
+      .contacts{
+          display: flex;
+          flex-direction: column;
       }
       .contacts_button{
-          width: 190px;
-          height: 40px;
-          font-size: 14px;
+          width: 300px;
+          height: 55px;
+          font-size: 20px;
       }
       .img{
-          width: 20px;
-          height: 20px;
+          width: 35px;
+          height: 35px;
       }
       .post{
           width: 70%;
-          font-size: 20px;
+          font-size: 22px;
       }
       .post>img{
           width: 35px;
@@ -245,61 +257,46 @@
   @media screen and (min-width: 320px) and (max-width: 425px){
     .footer-wrapper{
         flex-direction: column;
-        height: 230px;
+        height: 300px;
     }
     .info-wrapper{
-        width: 100%;
+        width: 95%;
     }
     .tankwood{
-        font-size: 48px;
+        visibility: hidden;
+        display: none;
     }
     .img-logo-footer{
         width: 90px;
         height: 55px;
     }
     .social_footer{
-        width: 60%;
+        width: 80%;
     }
    
     .contacts-wrapper{
         width: 100%;
-        font-size: 20px;
-    }
-    .contacts_button{
-        width: 175px;
-        height: 30px;
-        font-size: 13px;
+        font-size: 22px;
     }
     .img{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     .post{
-        width: 80%;
-        font-size: 18px;
+        width: 100%;
+        font-size: 22px;
     }
     .post>img, .social_footer>img{
         width: 30px;
         height: 30px;
     }
-}
-@media screen and (min-width: 320px) and (max-width: 425px){
-    .tankwood{
-        font-size: 44px!important;
-    }
-    .img-logo-footer{
-        width: 85px!important;
-        height: 50px!important;
-    }
     .contacts{
         flex-direction: column;
     }
     .contacts_button{
-        width: 200px!important;
-        height: 40px!important;
-        font-size: 15px!important;
+        width: 260px!important;
+        height: 50px!important;
+        font-size: 18px!important;
     }
-    .footer-wrapper{
-        height: 300px!important;
-    }
+    
 }
