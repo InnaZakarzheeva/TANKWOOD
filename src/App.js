@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 import SmartSlider from "react-smart-slider";
 import Head_line from './components/head_line/head_line';
 import Footer from './components/footer/footer';
@@ -30,7 +30,7 @@ const arr = [
 
   {
     name: "ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 120 T",
-    price:"23 500 ГРН",
+    price:"24 500 ГРН",
     description:"Надежный измельчитель веток который агрегатируеться непосредственно с тракторами. Tankwood 120 T с производительностью 60 м3/смену станет отличным партнером Вашей технике. Заготавливать топливо ещё не было так легко. Привод от карданного вала, на выбор: 6 и 8 шлицов.",
     photo:[ 
       require("./static/image/120T/1.png"),
@@ -49,7 +49,7 @@ const arr = [
 
   {
     name: "ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 120 TPRO",
-    price:"26 500 ГРН",
+    price:"27 500 ГРН",
     description:"Tankwood 120 Tpro предназначен заготавливать топливо с веток и дров. Главной особенностью является большой диаметр перерабатываемой ветки и наличие конусного дровокола, с помощью которого можно быстро колоть дрова.",
     photo:[ 
       require("./static/image/120TPRO/1.png"),
