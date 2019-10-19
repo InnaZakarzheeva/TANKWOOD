@@ -273,7 +273,7 @@ export default class Body extends React.Component {
                    
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
-                            <div>39 500 ГРН</div>
+                            <div>42 000 ГРН</div>
                             <br></br>
                             <p className="about">Служит отличным помощником в заготовке дешёвого топлива. Может устанавливаться на автомобильный прицеп. И быть мобильным. Также его можно устанавливать стационарно. Аппарат полностью автономный. Одной заправки топлива А-92 будет вполне достаточно для рабочей смены.</p>
                             <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
@@ -347,7 +347,7 @@ export default class Body extends React.Component {
                    
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
-                            <div>43 900 ГРН</div>
+                            <div>45 000 ГРН</div>
                             <br></br>
                             <p className="about">Служит отличным помощником в заготовке дешёвого топлива. Имеет колёсную базу. Два фаркопа что в свою очередь позволяет легко транспортировать аппарат и прицеп. Одной заправки топлива А-92 будет вполне достаточно для рабочей смены.</p>
                             <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
@@ -423,7 +423,7 @@ export default class Body extends React.Component {
                   
                         <div className="name">
                             <div>СТОИМОСТЬ</div>
-                            <div>49 950 ГРН</div>
+                            <div>52 000 ГРН</div>
                             <br></br>
                             <p className="about">Tankwood 12B18Kpro улучшеный измельчитель веток. Имеет в своём арсенале мощный двигатель, электростартер, большие колёса усиленную раму, широкую колесную базу и маховик.</p>
                             <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
@@ -549,10 +549,13 @@ export default class Body extends React.Component {
                     <div className="products">
                     <div className="carousel-wrapper">
                          <Carousel className="carousel">
-                            <div><img src={require("../../static/image/12B18KT/1.png") }/></div>
-                            <div><img src={ require("../../static/image/12B18KT/2.png")} /></div>
-                            <div><img src={require("../../static/image/12B18KT/3.png")} /></div>
-                            <div><img src={require("../../static/image/12B18KT/4.png")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/1.jpg") }/></div>
+                            <div><img src={require("../../static/image/12B18KT/2.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/3.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/4.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/5.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B18KT/6.jpg")} /></div>
+                            <div><img src={ require("../../static/image/12B18KT/7.jpg")} /></div>
                         </Carousel>
                         </div>
                   
@@ -598,6 +601,73 @@ export default class Body extends React.Component {
                                 <div className="row-about"><div>Большие колёса.</div></div>
                                 <div className="row-about"><div>Фаркоп.</div></div>
                                 <div className="row-about"><div>Производительность</div><div> 10.5 м3/час!</div></div>
+                                
+                            </div>
+                    </div>
+
+                </div>
+               
+
+         <YouTube videoId="oYZ-aJTtOBk" opts={opts} onReady={this._onReady} className="youtube"/>
+ 
+<br></br>
+</div>
+
+            {/* Tankwood 12B18KAT */}
+
+<div className="line">
+                 <div className="products-wrapper">
+                 <h1>ИЗМЕЛЬЧИТЕЛЬ ВЕТОК ТМ TANKWOOD 12B18KAT</h1>
+                    <div className="products">
+                    <div className="carousel-wrapper">
+                         <Carousel className="carousel">
+                            <div><img src={require("../../static/image/12B18KAT/1.jpg") }/></div>
+                            <div><img src={require("../../static/image/12B18KAT/2.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B18KAT/3.jpg")} /></div>
+                            <div><img src={require("../../static/image/12B18KAT/4.jpg")} /></div>
+                        </Carousel>
+                        </div>
+                  
+                        <div className="name">
+                            <div>СТОИМОСТЬ</div>
+                            <div>95 000 ГРН</div>
+                            <br></br>
+                            <p className="about">Измельчитель веток Tankwood 12B18KAT превосходный помощник как фермерским хозяйствам так и большим предприятиям. Обеспечивает быструю слаженную работу по переработки древесины в деловое топливо в больших количествах. </p>
+                            <form action="tel:+380672570187"> <button className="order" type="submit">Заказать</button></form>
+                        </div>
+                     </div>
+            </div>
+                                                            <br></br>
+                <div className="about-wrapper">
+                        <div className="about-contain-1">
+
+                            <div className="header-about">
+                            <h3>ТЕХНИЧИСКИЕ ХАРАКТЕРИСТИКИ</h3>
+                            </div>
+                    
+                            <div className="contain-about">
+                            
+                                <div className="row-about"><div>Максимальный диаметр ветки</div><div>120 мм!</div></div>
+                                <div className="row-about"><div>Длинна полученной заготовки</div><div>50-70мм! </div></div>
+                                <div className="row-about"><div>Производительность</div><div>12 м3/час!</div></div>
+                                <div className="row-about"><div>Расход топлива</div><div>1.2-1.5 л/час А-92!</div></div>
+                                <div className="row-about"><div> Высота выгрузки</div><div>2.9 м!</div></div>
+                            </div>
+                        </div>
+
+                        <div className="about-contain-1">
+
+                            <div className="header-about">
+                            <h3>ПРЕИМУЩЕСТВА</h3>
+                            </div>
+                            
+
+                            <div className="contain-about">
+                                <div className="row-about"><div>Большая колёсная база!</div></div>
+                                <div className="row-about"><div>Наличие транспортёра!</div></div>
+                                <div className="row-about"><div>При рабочем положении не требуется подпорок!</div></div>
+                                <div className="row-about"><div>Высокая производительность!</div></div>
+                                <div className="row-about"><div>Порошковая покраска!</div><div>
                                 
                             </div>
                     </div>
